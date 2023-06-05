@@ -6,7 +6,7 @@ public class bottlecontroller : MonoBehaviour
 {
     GameObject player;
     GameObject bullet;
-
+    //控制塑膠瓶
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +41,7 @@ public class bottlecontroller : MonoBehaviour
         }
     }
 
+//泡泡擊中塑膠瓶
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log(gameObject.tag + " entered trigger tagged " + other.gameObject.tag);

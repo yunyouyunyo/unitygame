@@ -7,7 +7,7 @@ public class endscene : MonoBehaviour
     public GameObject BulletPrefab;
     float span = 0.8f;
     float delta = 0;
-
+    //隨機產生泡泡
     // Start is called before the first frame update
     void Start() { }
 

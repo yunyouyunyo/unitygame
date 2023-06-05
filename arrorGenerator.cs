@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class arrorGenerator : MonoBehaviour
 {
-    public GameObject bottlePrefab;
+    public GameObject bottlePrefab;//產生塑膠瓶
     float span = 0.8f;
     float delta = 0;
 

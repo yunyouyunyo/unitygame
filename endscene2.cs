@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class endscene2 : MonoBehaviour
 {
+    //控制泡泡
     // Start is called before the first frame update
     void Start() { }
 

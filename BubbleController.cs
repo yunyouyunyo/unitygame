@@ -5,7 +5,7 @@ using UnityEngine;
 public class BubbleController : MonoBehaviour
 {
     GameObject bottle;
-
+    //控制泡泡
     void Start() { }
 
     // Update is called once per frame
